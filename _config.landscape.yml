@@ -1,0 +1,5 @@
+# Math Equations Render Support
+mathjax:
+  enable: true
+  per_page: true
+  engine: mathjax
