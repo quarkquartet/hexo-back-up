@@ -4,3 +4,6 @@
 [submodule "themes/obsidian"]
 	path = themes/obsidian
 	url = https://github.com/TriDiamond/hexo-theme-obsidian.git
+[submodule "themes/landscape"]
+	path = themes/landscape
+	url = https://github.com/hexojs/hexo-theme-landscape
