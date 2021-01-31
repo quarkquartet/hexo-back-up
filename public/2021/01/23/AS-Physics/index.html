@@ -20,19 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="A short summary for AS physics lecture and excercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are included.">
+  <meta name="description" content="A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AS Physics">
 <meta property="og:url" content="http://example.com/2021/01/23/AS-Physics/index.html">
 <meta property="og:site_name" content="Ruoquan (Isaac) Wang&#39;s Home">
-<meta property="og:description" content="A short summary for AS physics lecture and excercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are included.">
+<meta property="og:description" content="A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2021/01/23/AS-Physics/5B5b.png">
 <meta property="og:image" content="http://example.com/2021/01/23/AS-Physics/figure.png">
 <meta property="article:published_time" content="2021-01-23T23:05:40.000Z">
-<meta property="article:modified_time" content="2021-01-24T03:34:31.352Z">
+<meta property="article:modified_time" content="2021-01-31T22:02:20.063Z">
 <meta property="article:author" content="Ruoquan Wang">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/01/23/AS-Physics/figure.png">
+<meta name="twitter:image" content="http://example.com/2021/01/23/AS-Physics/5B5b.png">
 
 <link rel="canonical" href="http://example.com/2021/01/23/AS-Physics/">
 
@@ -174,13 +175,19 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-01-23 18:05:40 / Modified: 22:34:31" itemprop="dateCreated datePublished" datetime="2021-01-23T18:05:40-05:00">2021-01-23</time>
+              <time title="Created: 2021-01-23 18:05:40" itemprop="dateCreated datePublished" datetime="2021-01-23T18:05:40-05:00">2021-01-23</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-01-31 17:02:20" itemprop="dateModified" datetime="2021-01-31T17:02:20-05:00">2021-01-31</time>
+              </span>
 
           
-            <div class="post-description">A short summary for AS physics lecture and excercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are included.</div>
+            <div class="post-description">A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.</div>
 
         </div>
       </header>
@@ -199,6 +206,73 @@
 <h2><span id="chapter-5-momentum">Chapter 5 Momentum</span></h2>
 <h2><span id="chapter-6-elasticity">Chapter 6 Elasticity</span></h2>
 <h2><span id="chapter-7-circular-motion">Chapter 7 Circular motion</span></h2>
+<p>Circular motion is the simplest form of a motion along a <em>curved trajectory</em>.</p>
+<h3><span id="how-the-motion-can-take-turns">How the motion can take turns</span></h3>
+<p>The acceleration changes the velocity, not only the magnitude, but also the <em>direction</em>. The simplest way to change the direction is applying the acceleration so that it only changes the direction, but no magnitude. This is achieved by making the acceleration <em>perpendicular to the velocity</em>.</p>
+<p>Remember: instantaneous acceleration can be decomposed as two components -- parallel or penpendicular to the velocity. The parallel component changes the magnitude of the velocity, the perpendicular one changes the direction. <strong>This only applies on instantaneous acceleration!</strong></p>
+<h3><span id="circular-motion-at-constant-speed">Circular motion at constant speed</span></h3>
+<p>If the trajectory is a circle, this motion is called the <em>circular motion</em>. The simplest way is that the speed is not changed, that is, the magnitude of the velocity is constant.</p>
+<p><strong>Remember</strong>: - The speed is not changed, but the direction of motion is always changing: they are always along the tangential direction of the circle. - The direction of the acceleration is always changing: always pointing to the center. The magnitude is constant.</p>
+<p>To describe the circular motion, we need to get used to a new unit: the <em>radian</em>. We know that for a angle at the center of a circle, the arc length that corresponds to this angle is proportional to it: <span class="math inline">\(l \propto \theta\)</span>. We also know that <span class="math inline">\(l \propto r\)</span>. So we define the radian unit so that <span class="math inline">\(l=r\theta\)</span>. For example, a whole angle, <span class="math inline">\(360\degree\)</span>, corresponds to a whole circle. So <span class="math inline">\(360\degree = 2\pi \ \rm rad\)</span>.</p>
+<p>Quantities that describe this kind of motion includes: - Speed <span class="math inline">\(v\)</span>. - Angular speed <span class="math inline">\(\omega\)</span>, describing how large the angle it can rotate in unit time. We have <span class="math inline">\(\omega r = v\)</span>. - Period <span class="math inline">\(T\)</span>, describing the time for a whole circle. We have <span class="math inline">\(T = 2\pi / \omega\)</span> - Frequency <span class="math inline">\(f\)</span>, describing how many circles can be finished in unit time. <span class="math inline">\(f=1/T\)</span>.</p>
+<p>For this kind of motion, the acceleration is <span class="math display">\[
+a = \frac{v^2}{r} = \omega^2 r
+\]</span> this acceleration is called the <em>centripetal acceleration</em>.</p>
+<h3><span id="centripetal-force">Centripetal force</span></h3>
+<p>To finish the circular motion, we need a force to offer the centripetal acceleration. Thus we required a force equals to <span class="math inline">\(ma\)</span>. This force is called <em>centripetal force</em>, written as: <span class="math display">\[
+F = m \frac{v^2}{r} = m \omega^2 r
+\]</span></p>
+<p>This force is not an actual force. Instead, it is a <em>requirement</em> to finish the circular motion. It's the actual forces: gravity, pushing, pulling, spring, friction forces, etc, that offers the centripetal force.</p>
+<h3><span id="solutions-to-book2-practice">Solutions to Book2 Practice</span></h3>
+<ol type="1">
+<li>C. Unit should be inverse of time.</li>
+<li>B. Worn tyres causes smaller friction, which is probably not able to offer enough centripetal force.</li>
+<li>B. Use formula <span class="math inline">\(\omega = \theta/t\)</span>, we have <span class="math inline">\(\omega = 2 \pi \times 14.5/60\  \rm rad/s = 1.52\ \rm rad/s\)</span>.</li>
+<li>C. The string is holding the mass. Notice that the motion is in a horizontal circle, so gravity does not participate in this motion.</li>
+<li><ol type="a">
+<li>At first the train is moving along the horizontal track. It is a simple acceleration along a straight line. So: <span class="math display">\[
+ a = \frac{\Delta v}{\Delta t}
+  \]</span> Force is calculated by: <span class="math display">\[
+ F = ma = 12000 * \frac{57-0}{3.5} = 195429 \ \rm N
+  \]</span></li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><center>
+<p><img src="/2021/01/23/AS-Physics/5B5b.png" width="30%"></p>
+</center></li>
+<li><p>The "radius of curvature" is nothing but the radius of the circular motion. X is just the starting point of the circular motion. So simply plug in the formulas for that. From <span class="math display">\[
+    F = m\frac{v^2}{r}
+  \]</span> we have <span class="math display">\[
+    r = \frac{mv^2}{F} = \frac{v^2}{3 g} = \frac{57^2}{3 \times 9.8} = 110.51 \ \rm m
+  \]</span></p></li>
+<li><p>During the motion, kinetic energy is tranferred into gravitational potential energy (because resistance is negligible). We can write down: <span class="math display">\[
+    \Delta E_p = - \Delta E_k
+  \]</span> Thus <span class="math display">\[
+    mg(h_{\rm top} - h_{\rm bottom}) = mgh = - (\frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2) = \frac{1}{2}m(57^2 - 20^2)
+  \]</span> Solve this equation we can get <span class="math inline">\(h=145 \ \rm m\)</span>. We can also understand the process by kinetic energy theorem: works exerted by external forces on the body changes the kinetic energy. Here, the works is done by the gravitational force, which is negative work. So: <span class="math display">\[
+    -mgh = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+  \]</span> This equation is the same as the above.</p></li>
+<li><p>Point Y is just the top point. Weightless means that there is no interaction between the rider and the seat (the "reaction force" is <span class="math inline">\(0\)</span>). The gravitational force is just enough to offer the centripetal force. The speed at Y is just <span class="math inline">\(20\)</span> that we used in the above question. So: <span class="math display">\[
+    mg = m\frac{v_2^2}{r_Y}
+  \]</span> Then we can solve the <span class="math inline">\(r_Y = v^2_2/g = 40.8\ \rm m\)</span>.</p></li>
+</ol>
+<ol start="6" type="1">
+<li><ol type="a">
+<li>"20 revolutions per minute". So <span class="math inline">\(\omega = 20 \times 2\pi/60 = 2\pi/3\ \rm rad/s\)</span>.</li>
+<li>Acceleration is just <span class="math inline">\(\omega^2 r = g\)</span>, thus we can solve for <span class="math inline">\(r\)</span>.</li>
+</ol></li>
+<li><ol type="a">
+<li><span class="math inline">\(T = 2\pi r/v = 1474\ \rm s\)</span>.</li>
+<li><span class="math inline">\(F = mv^2/r = 10.75\ \rm N\)</span></li>
+<li><ol type="i">
+<li>Simply draw arrows that pointing into the center.</li>
+</ol></li>
+</ol>
+<ol start="2" type="i">
+<li>Maximum: at the bottom: <span class="math inline">\(F_n - mg = F_c\)</span>. Minimum: at the top: <span class="math inline">\(mg - F_n = F_c\)</span>.</li>
+</ol></li>
+</ol>
 <h2><span id="review-project-1-crazy-alex-yu">Review Project 1: Crazy Alex Yu</span></h2>
 <center>
 <img src="/2021/01/23/AS-Physics/figure.png" width="70%">

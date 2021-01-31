@@ -21,6 +21,101 @@ mathjax: true
 
 ## Chapter 7 Circular motion
 
+Circular motion is the simplest form of a motion along a *curved trajectory*. 
+
+### How the motion can take turns
+
+The acceleration changes the velocity, not only the magnitude, but also the *direction*. The simplest way to change the direction is applying the acceleration so that it only changes the direction, but no magnitude. This is achieved by making the acceleration *perpendicular to the velocity*.
+
+Remember: instantaneous acceleration can be decomposed as two components -- parallel or penpendicular to the velocity. The parallel component changes the magnitude of the velocity, the perpendicular one changes the direction. **This only applies on instantaneous acceleration!** 
+
+### Circular motion at constant speed
+
+If the trajectory is a circle, this motion is called the *circular motion*. The simplest way is that the speed is not changed, that is, the magnitude of the velocity is constant. 
+
+**Remember**:
+- The speed is not changed, but the direction of motion is always changing: they are always along the tangential direction of the circle.
+- The direction of the acceleration is always changing: always pointing to the center. The magnitude is constant.
+
+To describe the circular motion, we need to get used to a new unit: the *radian*. We know that for a angle at the center of a circle, the arc length that corresponds to this angle is proportional to it: $l \propto \theta$. We also know that $l \propto r$. So we define the radian unit so that $l=r\theta$. For example, a whole angle, $360\degree$, corresponds to a whole circle. So $360\degree = 2\pi \ \rm rad$.
+
+Quantities that describe this kind of motion includes:
+- Speed $v$.
+- Angular speed $\omega$, describing how large the angle it can rotate in unit time. We have $\omega r = v$.
+- Period $T$, describing the time for a whole circle. We have $T = 2\pi / \omega$
+- Frequency $f$, describing how many circles can be finished in unit time. $f=1/T$.
+  
+
+For this kind of motion, the acceleration is
+$$
+a = \frac{v^2}{r} = \omega^2 r
+$$
+this acceleration is called the *centripetal acceleration*.
+
+### Centripetal force
+
+To finish the circular motion, we need a force to offer the centripetal acceleration. Thus we required a force equals to $ma$. This force is called *centripetal force*, written as:
+$$
+F = m \frac{v^2}{r} = m \omega^2 r
+$$
+
+This force is not an actual force. Instead, it is a *requirement* to finish the circular motion. It's the actual forces: gravity, pushing, pulling, spring, friction forces, etc, that offers the centripetal force. 
+
+### Solutions to Book2 Practice
+1. C. Unit should be inverse of time.
+2. B. Worn tyres causes smaller friction, which is probably not able to offer enough centripetal force.
+3. B. Use formula $\omega = \theta/t$, we have $\omega = 2 \pi \times 14.5/60\  \rm rad/s = 1.52\ \rm rad/s$.
+4. C. The string is holding the mass. Notice that the motion is in a horizontal circle, so gravity does not participate in this motion.
+5. (a) At first the train is moving along the horizontal track. It is a simple acceleration along a straight line. So:
+  $$
+    a = \frac{\Delta v}{\Delta t}
+  $$
+  Force is calculated by:
+  $$
+    F = ma = 12000 * \frac{57-0}{3.5} = 195429 \ \rm N
+  $$
+
+  (b) 
+  <center>
+  <img src="./AS-Physics/5B5b.png" width=30%>
+  </center>
+
+  (c) The "radius of curvature" is nothing but the radius of the circular motion. X is just the starting point of the circular motion. So simply plug in the formulas for that. From
+  $$
+    F = m\frac{v^2}{r}
+  $$
+  we have 
+  $$
+    r = \frac{mv^2}{F} = \frac{v^2}{3 g} = \frac{57^2}{3 \times 9.8} = 110.51 \ \rm m
+  $$
+
+  (d) During the motion, kinetic energy is tranferred into gravitational potential energy (because resistance is negligible). We can write down:
+  $$
+    \Delta E_p = - \Delta E_k
+  $$
+  Thus 
+  $$
+    mg(h_{\rm top} - h_{\rm bottom}) = mgh = - (\frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2) = \frac{1}{2}m(57^2 - 20^2)
+  $$
+  Solve this equation we can get $h=145 \ \rm m$. 
+  We can also understand the process by kinetic energy theorem: works exerted by external forces on the body changes the kinetic energy. Here, the works is done by the gravitational force, which is negative work. So:
+  $$
+    -mgh = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+  $$
+  This equation is the same as the above.
+  (e) Point Y is just the top point. Weightless means that there is no interaction between the rider and the seat (the "reaction force" is $0$). The gravitational force is just enough to offer the centripetal force. The speed at Y is just $20$ that we used in the above question. So:
+  $$
+    mg = m\frac{v_2^2}{r_Y}
+  $$
+  Then we can solve the $r_Y = v^2_2/g = 40.8\ \rm m$.
+6. (a) "20 revolutions per minute". So $\omega = 20 \times 2\pi/60 = 2\pi/3\ \rm rad/s$.
+   (b) Acceleration is just $\omega^2 r = g$, thus we can solve for $r$.
+7. (a) $T = 2\pi r/v = 1474\ \rm s$.
+   (b) $F = mv^2/r = 10.75\ \rm N$
+   (c) (i) Simply draw arrows that pointing into the center.
+   (ii) Maximum: at the bottom: $F_n - mg = F_c$. Minimum: at the top: $mg - F_n = F_c$.
+
+   
 ## Review Project 1: Crazy Alex Yu
 
 <center>
