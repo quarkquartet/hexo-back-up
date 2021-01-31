@@ -3,25 +3,23 @@ layout: as-physics
 title: AS Physics
 date: 2021-01-23 18:05:40
 tags:
-description: A short summary for AS physics lecture and excercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are included. 
+description: A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.  
 mathjax: true
 ---
 # Part 1: Mechanics
-## Chapter 1 &emsp; Kinematics
+## Chapter 1  Kinematics
 
-## Chapter 2 &emsp; Dynamics: Newton's Law
+## Chapter 2  Dynamics: Newton's Law
 
-## Chapter 3 &emsp; Forces
+## Chapter 3  Forces
 
-## Chapter 4 &emsp; Energy
+## Chapter 4  Energy
 
-## Chapter 5 &emsp; Momentum
+## Chapter 5  Momentum
 
-## Chapter 6 &emsp; Elasticity
+## Chapter 6  Elasticity
 
-## Chapter 7 &emsp; Fluid
-
-## Chapter 8 &emsp; Pressure
+## Chapter 7 Circular motion
 
 ## Review Project 1: Crazy Alex Yu
 
@@ -109,8 +107,79 @@ Known quantities: the angle $\theta$, and all the quantities solved above.
   y_{AB} = \frac{1}{2} g t_{AB}^2 = \frac{v_A^2 \tan^2\theta}{2g}
   $$
 
-# Part 2: Electrics and Magnetics
+### Part 3: Running in the track
 
-# Part 3: Thermal Physics
+After she enters the track at point B, she runs along the track and finally arrives C. No energy lost at point B during she enters the track. But remember, this car has no engine.
+
+The track is smooth, but not straight. No energy lost while moving in the track.
+
+Known quantities: height between B and C $h_{BC}$, and the quantities calculated above.
+
+- What is the kinetic energy at point B?
+- What is the change of gravitational potential energy from B to C?
+- What is the speed at point C?
+
+**Solutions**:
+- Kinetic energy is simply:
+  $$
+  E_k = \frac{1}{2}m v_B^2
+  $$
+- The gravitational potential gets higher. Since we know that
+  $$
+  h_{BC} = h_C - h_B
+  $$
+  we know that
+  $$
+  \Delta E_{p}=E_{pC} - E_{pB} = mgh_C - mgh_B = mgh_{BC}
+  $$
+  This is a positive value.
+- During this process, energy is conserved: kinetic energy is transferred into gravitational potential energy. We can write down:
+  $$
+  \Delta E_k = \frac{1}{2}m(v_C^2 - v_B^2) = -\Delta E_p = -mgh_{BC}
+  $$
+  Solve this equation and we can get 
+  $$
+  v_C = \sqrt{v_B^2 - 2gh_{BC}}
+  $$
+
+### Part 4: Running along the slope
+
+After finishing the track, she arrives point C. Now the tower is exactly at D. Only a straight way remaining! No energy lost at point C. That means, the speed at C when her leave the track BC is the speed that she starts moving along CD.
+
+But this way is not smooth. The friction is $f$. She exactly stops at D finally.
+
+Known quantities: slope of CD $\alpha$, and all the quantities calculated above.
+
+- How many forces are exerting on her?
+- What is her acceleration?
+- She finally stops at D. How long is CD? How much time does it take?
+
+**Solutions**: 
+- Gravity, supporting force from the slope, and friction.
+- Decompose the forces along the slope. Friction is down along the slope. One componenet of gravity also points down along the slope. So the acceleration is given by:
+  $$
+  f+mg\sin \alpha = ma
+  $$
+  so
+  $$
+  a = g\sin \theta + \frac{f}{m}
+  $$
+
+- Write down the equation:
+  $$
+  0 - v_C^2 = -2 a l_{CD}
+  $$
+  so
+  $$
+  l_{CD} = \frac{v_C^2}{2(g \sin \theta + f/m)}
+  $$
+
+**Congratulations to Alex Yu. She finally arrives the tower! (Although she is
+crazy...) Let's move on to the next journey!**
+
+
+# Part 2: Thermal Physics
+
+# Part 3: Electricity and Magnetics
 
 # Part 4: Modern Physics

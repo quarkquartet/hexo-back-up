@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: obsidian
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -114,12 +114,3 @@ math:
     src: custom_mathjax_source
     config:
       # MathJax config
-
-# Table of Content
-toc:
-  enable: true
-  maxDepth: 3
-
-# Show abstract
-auto_excerpt:
-  enable: true
