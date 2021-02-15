@@ -3,7 +3,7 @@ layout: as-physics
 title: AS Physics
 date: 2021-01-23 18:05:40
 tags:
-description: A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.  
+description: A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.
 mathjax: true
 ---
 # Part 1: Mechanics
@@ -37,7 +37,7 @@ If the trajectory is a circle, this motion is called the *circular motion*. The 
 - The speed is not changed, but the direction of motion is always changing: they are always along the tangential direction of the circle.
 - The direction of the acceleration is always changing: always pointing to the center. The magnitude is constant.
 
-To describe the circular motion, we need to get used to a new unit: the *radian*. We know that for a angle at the center of a circle, the arc length that corresponds to this angle is proportional to it: $l \propto \theta$. We also know that $l \propto r$. So we define the radian unit so that $l=r\theta$. For example, a whole angle, $360\degree$, corresponds to a whole circle. So $360\degree = 2\pi \ \rm rad$.
+To describe the circular motion, we need to get used to a new unit: the *radian*. We know that for a angle at the center of a circle, the arc length that corresponds to this angle is proportional to it: $l \propto \theta$. We also know that $l \propto r$. So we define the radian unit so that $l=r\theta$. For example, a whole angle, $360^\circ$, corresponds to a whole circle. So $360^\circ = 2\pi \ \rm rad$.
 
 Quantities that describe this kind of motion includes:
 - Speed $v$.
