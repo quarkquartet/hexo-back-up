@@ -115,7 +115,98 @@ This force is not an actual force. Instead, it is a *requirement* to finish the 
    (c) (i) Simply draw arrows that pointing into the center.
    (ii) Maximum: at the bottom: $F_n - mg = F_c$. Minimum: at the top: $mg - F_n = F_c$.
 
-   
+## Chapter 8 Gravitation
+
+Previously our understanding to gravitation is simply "weight is gravitation". This is not the case, however. Weight is not a fundamental force. In contrast, it's part of the gravitation given by the earth. To understand the gravitation comprehensively, we should jump beyond the earth and into the universe. This chapter leads you to take a look at the earth from a higher point of view.
+
+### Gravitational forces
+
+Gravitational forces is the interaction between objects due to the mass they own. In other words, any objects must have this interaction with each other as long as they have non-zero mass (we will encounter particles with zero mass in the future). The force has the form:
+$$
+  F = \frac{GMm}{R^2} 
+$$
+where $G = 6.67 \times 10^{-11}$ is the gravitational constant. $M$ and $m$ are the masses of the interacting bodies. $R$ is the radius between them. Forces with this form is called "inverse square law": the force is inversely proportional to the square of the distance. The Coulumb's law, which is the interacting forces between electric charges, is also a inverse square law. We will dig deeper about this kind of forces in the future.
+
+Usually, we use the symbol $M$ to represent the celestial body at the center. For example, a person who stands on the surface of the earth will receive a gravitational force $F_G = GMm/R^2$ where $R$ is the radius of the earth. And, comparing with the weight $mg$, we can easily see that $g = GM/R^2$. Similarly, we can calculate the force on the surface of other stars, or the force from earth when flying in the outerspace.
+
+### Gravitational fields
+
+This is the first time we encounter the concept of "field". The gravitational field is produced by the central celestial body, and interacts on the flying body. (*Of course, inversely, we can also consider the flying body creates a field and interacts on the celestial body. But in astronomy and cosmology, since the flying body is too light, we never count there field. So from now, we are getting used to calculate the field from the center celestial body*.)
+
+How to understand that? From the force law $F = GMm/R^2$, we can easily see that the force is proportional to the flying body for a fixed center star. The coefficient for this fixed star is only dependent on the distance. For example, if we are talking about the force from the earth to the flying spaceship, then the force on the spaceship should obey $F \propto m_{\rm ship}$. The proportional coefficient is just $GM/R^2$. This coefficient, if we are keep talking about the earth (which means $M$ is not changed), is only dependent on $R$.
+
+We define this coefficient "gravitational field" as:
+$$
+g \equiv \frac{GM}{R^2}
+$$
+Gravitational field is a **vector**. It always points into the center celestial body that creates this field. Note that if we switch to talk about another star, like moon, the $M$ changes, and at that time we are talking about a new different field produced by the moon, $g_{\rm moon} = GM_{\rm moon}/R^2$.
+
+Why we use the same symbol $g$ for the field and the gravitational acceleration? Now you can see that they are the same thing! Both of them gives $F_G = mg$. So we say that the symbol $g$ represent both the acceleration and the gravitation. It has two unit (of course these two units are equivalent): $\mathrm{kg \cdot m \cdot s^{-2}} = \mathrm{N/kg}$. You can try to prove this.
+
+#### What is field? (Jump this subsection if you want, but encourage to read)
+
+A "field" is defined as something that depends on the location. For example, the altitude of the earth surface depends on where you are talking about (Of course! The Mount.Zhumulangma has the different altitude with the Mariana Trench!). We say that the altitude of the surface is a **field function** that depends on the location $x$, where $x$ is a vector that can pinpoint the location on the earth. Note this function as $A(x)$. (You may not be familiar with this symbol for now. But you will learn this symbol at the first math class in high school.)
+
+Another example is the familiar linear function $y = kx + b$. We can regard $x$ as the location. Now we say that **$y$ is a function of the location $x$**. We can also call $y$ a field.
+
+Now go back to the gravitational field. The field $g = GM/R^2$ is absolutely a function of location $R$. So we call it a field. 
+
+Why we do not call the force $F = GMm/R^2$ a field? The reason is it also depends on the flying body $m$. We would like to have a look at something that is independent of the body.
+
+But you may further ask: the gravitational field $g = GM/R^2$ also depends on the $M$! Why you do not apply the same reason for this $M$? Well, this $M$ is from the one who creates the field. Without the $M$ we do not have this field. If we change $M$, yes you can, but then we are talking another field from another celestial body. **For the same celestial body who is creating a certain field**, the $M$ is a constant.
+
+### Gravitational potential
+
+We talked about the gravitational potential energy in terms of weights $mg$ before. But this time we are looking at the potential energy in the outerspace. 
+
+The definition of the potential energy should be the same: it's a kind of energy that is stored in the interactions. The interactions tends to release the energy and this energy will be transformed into kinetic energy. Previously, the way we define the gravitational potential energy is the same as the opposite of the works done by the gravity when we push something from the 0-energy point to the current location.
+
+For example, we choose a surface to have 0 potential energy. Lift a body with mass $m$ to the height $h$. The work done by the gravity is negative: $W_G = - mgh$. We say that the potential energy is $mgh$. (Remember, the negative work from gravity means that the gravity turns other type of energy into gravitational potential energy. So we can understand this process as: during lifting, gravity does negative work and turns some energy into gravitational potential energy. The amount is $mgh$. Then this point has the potential energy $mgh$.) We summarize the process as:
+
+$$
+E_{pG\text{ at }h} = -W_{G, \text{0 to h}}
+$$
+
+Now apply it to the universe. First question: how to define the zero-energy point? The answer is: at infinity!
+
+Now we define infinity to be 0 potential energy. Push the item back and we can get the potential energy. The problem is: the force is varying during the whole process!
+
+This calculation needs calculus. You will learn about this after you pass AS exam. Now I just show you the result:
+
+$$
+E_{pG} = - \frac{GMm}{R}
+$$
+
+This is the gravitational potential energy.
+
+Now we have another task. For forces, we search for an quantity that is independent of $m$ and we call it field. For potential energy, shouldn't we do that?
+
+Yes, we should. The answer, of course, is again the coefficient of $m$:
+$$
+V \equiv \frac{E_{pG}}{m} = -\frac{GM}{R}
+$$
+We call this quantity **gravitational potential**. It only depends on $M$ and $R$.
+
+### Gravitational force guides the space motion
+
+Now we are well-equipped to calculate the phenomena of spaceship rotations. The only thing we need to do is: the gravity offers the centripedal force. 
+$$
+F_G = F_c
+$$
+For example, the geostatic satellite is rotating around the earth with the same period of earth spin: 24 hours per revolution. What is the height from the surface?
+
+The answer is simple:
+$$
+\frac{GMm}{R^2} = m\omega^2 R = m \left(\frac{2\pi}{T} \right)^2 R
+$$
+solve this equation we get:
+$$
+R^3 = \frac{GM}{4\pi}T^2
+$$
+Further, we should notice that here the $R$ is the distance from the center of earth to the satellite. The distance from the surface to the satellite is $R - R_{e}$, where $R_e$ is the earth radius.
+
+From the above example, we can found that the result does not depend on the flying mass $m$. Actually, this is the most case in this chapter. Remember, gravity offers the centripedal force, gravity offers the acceleration. For any question about flying body, write down this equation and you will solve that. No exceptions.
+
 ## Review Project 1: Crazy Alex Yu
 
 <center>
