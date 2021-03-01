@@ -207,6 +207,84 @@ Further, we should notice that here the $R$ is the distance from the center of e
 
 From the above example, we can found that the result does not depend on the flying mass $m$. Actually, this is the most case in this chapter. Remember, gravity offers the centripedal force, gravity offers the acceleration. For any question about flying body, write down this equation and you will solve that. No exceptions.
 
+### Solutions to Book2 Practice
+
+1. C. Gravitational field and electrostatic field are vector fields (at each location in space, there is a vector associate with that). The magnitude of forces for both of them obey $F \propto r^{-2}$, this is called the inverse square law.
+2. A. Simply plug in the reasonable numbers.
+3. C. "Move completely outside the influence of gravitational field" means to the infinity. That is, we should change the gravitational potential energy from $-GMm/R$ to $0$. Of course, we can give it some kinetic energy in addition. This is, however, not the "minimal" required by the question. So the energy we need is simply $GMm/R = 1.34 \times 10^{12} \rm{J}$.
+4. B. Just the formula $V = -GM/R$.
+5. Write down the gravitational field for earth and moon:
+   $$
+    g_{earth} = \frac{GM_{earth}}{R_{earth}^2}\\
+    g_{moon} = \frac{GM_{moon}}{R^2_{moon}}
+   $$
+   We have $g_{earth} = 6g_{moon}$, so
+   $$
+    \frac{M_{earth}}{R_{earth}^2} = 6\frac{M_{moon}}{R^2_{moon}}
+   $$
+   with $M_{earth} = 81 M_{moon}$, we can get
+   $$
+  \frac{R_{earth}}{R_{moon}} = \sqrt{\frac{81}{6}} = 3.67
+   $$
+6. (a) 
+  $$
+  g = \frac{GM}{r}
+  $$
+  (b) plug in the formula to get $g \simeq 9.8$
+7. (a) 15 complete orbits per 24h, then the angular velocity is:
+   $$
+  \omega = \frac{15 \times 2\pi}{24*3600} = 0.0011
+  $$
+  Then the acceleration is
+  $$
+  a = \omega^2 r=7570.37 m/s^2
+  $$
+  (b) Gravitational force gives acceleration. So
+  $$
+  \frac{GM}{R^2} = a
+  $$
+  so
+  $$
+  M = \frac{aR^2}{G} \simeq 6 \times 10^{24} kg
+  $$
+8. (a) The gravity is offering the centripedal force, i.e. the gravity is balancing the centrifugal force. If this is small, then not enough to offer centripedal force.
+   (b) Still use the familiar formula
+   $$
+    \frac{GM}{R^2} = \frac{v^2}{R}
+  $$
+  so
+  $$
+  v=\sqrt{\frac{GM}{R}}
+  $$
+  So when radius $R$ increase, the speed decrease.
+  Similarly,
+  $$
+  \frac{GM}{R^2} = \omega^2 R = \frac{4\pi^2}{T^2}R
+  $$
+  so
+  $$
+  T = \sqrt{\frac{4\pi^2R^3}{GM}}
+  $$
+  so when radius becomes larger, the period becomes larger.
+  (c) Simply plug in the number, result is $T = 5569.35s = 1.55h$
+  (d) Gravitational potential energy goes down. It goes partly into the kinetic energy, and partly into the costed energy by the resistance.
+9. (a) Gravitational field is created by the mass of the body at the center. It gives force on any massive body that is put into this field. 
+    $$
+  g = \frac{GM}{R^2}
+  $$
+  (b) <center>
+    <img src="./AS-Physics/Gravity.png" width=70% />
+    </center>
+
+  (c) Due to the sun:
+  $$
+  V_{sun}=-\frac{GM_{sun}}{R_{orbit}}
+  $$
+  Due to the earth:
+  $$
+  V_{earth}=-\frac{GM_{earth}}{R_{earth}}
+  $$
+10. They are both inverse squared force field, they both have potential energy and potential, they both has the direction along the line between the two objects. But mass is always positive, while electric charge can be negative. So gravitational force is always attracting, but electric force can be repulsive.
 ## Review Project 1: Crazy Alex Yu
 
 <center>
