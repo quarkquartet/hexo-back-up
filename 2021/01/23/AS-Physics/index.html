@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AS Physics">
+<meta property="og:url" content="http://example.com/2021/01/23/AS-Physics/index.html">
+<meta property="og:site_name" content="Ruoquan (Isaac) Wang&#39;s Home">
+<meta property="og:description" content="A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2021/01/23/AS-Physics/5B5b.png">
+<meta property="og:image" content="http://example.com/2021/01/23/AS-Physics/Gravity.png">
+<meta property="og:image" content="http://example.com/2021/01/23/AS-Physics/figure.png">
+<meta property="article:published_time" content="2021-01-23T23:05:40.000Z">
+<meta property="article:modified_time" content="2021-03-01T02:32:06.981Z">
+<meta property="article:author" content="Ruoquan Wang">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/01/23/AS-Physics/5B5b.png">
+
+<link rel="canonical" href="http://example.com/2021/01/23/AS-Physics/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>AS Physics | Ruoquan (Isaac) Wang's Home</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Ruoquan (Isaac) Wang's Home</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/23/AS-Physics/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Ruoquan Wang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ruoquan (Isaac) Wang's Home">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          AS Physics
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-01-23 18:05:40" itemprop="dateCreated datePublished" datetime="2021-01-23T18:05:40-05:00">2021-01-23</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-02-28 21:32:06" itemprop="dateModified" datetime="2021-02-28T21:32:06-05:00">2021-02-28</time>
+              </span>
+
+          
+            <div class="post-description">A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1><span id="part-1-mechanics">Part 1: Mechanics</span></h1>
+<h2><span id="chapter-1-kinematics">Chapter 1 Kinematics</span></h2>
+<h2><span id="chapter-2-dynamics-newtons-law">Chapter 2 Dynamics: Newton's Law</span></h2>
+<h2><span id="chapter-3-forces">Chapter 3 Forces</span></h2>
+<h2><span id="chapter-4-energy">Chapter 4 Energy</span></h2>
+<h2><span id="chapter-5-momentum">Chapter 5 Momentum</span></h2>
+<h2><span id="chapter-6-elasticity">Chapter 6 Elasticity</span></h2>
+<h2><span id="chapter-7-circular-motion">Chapter 7 Circular motion</span></h2>
+<p>Circular motion is the simplest form of a motion along a <em>curved trajectory</em>.</p>
+<h3><span id="how-the-motion-can-take-turns">How the motion can take turns</span></h3>
+<p>The acceleration changes the velocity, not only the magnitude, but also the <em>direction</em>. The simplest way to change the direction is applying the acceleration so that it only changes the direction, but no magnitude. This is achieved by making the acceleration <em>perpendicular to the velocity</em>.</p>
+<p>Remember: instantaneous acceleration can be decomposed as two components -- parallel or penpendicular to the velocity. The parallel component changes the magnitude of the velocity, the perpendicular one changes the direction. <strong>This only applies on instantaneous acceleration!</strong></p>
+<h3><span id="circular-motion-at-constant-speed">Circular motion at constant speed</span></h3>
+<p>If the trajectory is a circle, this motion is called the <em>circular motion</em>. The simplest way is that the speed is not changed, that is, the magnitude of the velocity is constant.</p>
+<p><strong>Remember</strong>: - The speed is not changed, but the direction of motion is always changing: they are always along the tangential direction of the circle. - The direction of the acceleration is always <em>changing</em>: always pointing to the center. The magnitude is constant.</p>
+<p>To describe the circular motion, we need to get used to a new unit: the <em>radian</em>. We know that for a angle at the center of a circle, the arc length that corresponds to this angle is proportional to it: <span class="math inline">\(l \propto \theta\)</span>. We also know that <span class="math inline">\(l \propto r\)</span>. So we define the radian unit so that <span class="math inline">\(l=r\theta\)</span>. For example, a whole angle, <span class="math inline">\(360^\circ\)</span>, corresponds to a whole circle. So <span class="math inline">\(360^\circ = 2\pi \ \rm rad\)</span>.</p>
+<p>Quantities that describe this kind of motion includes: - Speed <span class="math inline">\(v\)</span>. - Angular speed <span class="math inline">\(\omega\)</span>, describing how large the angle it can rotate in unit time. We have <span class="math inline">\(\omega r = v\)</span>. - Period <span class="math inline">\(T\)</span>, describing the time for a whole circle. We have <span class="math inline">\(T = 2\pi / \omega\)</span> - Frequency <span class="math inline">\(f\)</span>, describing how many circles can be finished in unit time. <span class="math inline">\(f=1/T\)</span>.</p>
+<p>For this kind of motion, the acceleration is <span class="math display">\[
+a = \frac{v^2}{r} = \omega^2 r
+\]</span> this acceleration is called the <em>centripetal acceleration</em>.</p>
+<h3><span id="centripetal-force">Centripetal force</span></h3>
+<p>To finish the circular motion, we need a force to offer the centripetal acceleration. Thus we required a force equals to <span class="math inline">\(ma\)</span>. This force is called <em>centripetal force</em>, written as: <span class="math display">\[
+F = m \frac{v^2}{r} = m \omega^2 r
+\]</span></p>
+<p>This force is not an actual force. Instead, it is a <em>requirement</em> to finish the circular motion. It's the actual forces: gravity, pushing, pulling, spring, friction forces, etc, that offers the centripetal force.</p>
+<h3><span id="solutions-to-book2-practice">Solutions to Book2 Practice</span></h3>
+<ol type="1">
+<li>C. Unit should be inverse of time.</li>
+<li>B. Worn tyres causes smaller friction, which is probably not able to offer enough centripetal force.</li>
+<li>B. Use formula <span class="math inline">\(\omega = \theta/t\)</span>, we have <span class="math inline">\(\omega = 2 \pi \times 14.5/60\  \rm rad/s = 1.52\ \rm rad/s\)</span>.</li>
+<li>C. The string is holding the mass. Notice that the motion is in a horizontal circle, so gravity does not participate in this motion.</li>
+<li><ol type="a">
+<li>At first the train is moving along the horizontal track. It is a simple acceleration along a straight line. So: <span class="math display">\[
+ a = \frac{\Delta v}{\Delta t}
+  \]</span> Force is calculated by: <span class="math display">\[
+ F = ma = 12000 * \frac{57-0}{3.5} = 195429 \ \rm N
+  \]</span></li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><center>
+<p><img src="/2021/01/23/AS-Physics/5B5b.png" width="30%"></p>
+</center></li>
+<li><p>The "radius of curvature" is nothing but the radius of the circular motion. X is just the starting point of the circular motion. So simply plug in the formulas for that. From <span class="math display">\[
+    F = m\frac{v^2}{r}
+  \]</span> we have <span class="math display">\[
+    r = \frac{mv^2}{F} = \frac{v^2}{3 g} = \frac{57^2}{3 \times 9.8} = 110.51 \ \rm m
+  \]</span></p></li>
+<li><p>During the motion, kinetic energy is tranferred into gravitational potential energy (because resistance is negligible). We can write down: <span class="math display">\[
+    \Delta E_p = - \Delta E_k
+  \]</span> Thus <span class="math display">\[
+    mg(h_{\rm top} - h_{\rm bottom}) = mgh = - (\frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2) = \frac{1}{2}m(57^2 - 20^2)
+  \]</span> Solve this equation we can get <span class="math inline">\(h=145 \ \rm m\)</span>. We can also understand the process by kinetic energy theorem: works exerted by external forces on the body changes the kinetic energy. Here, the works is done by the gravitational force, which is negative work. So: <span class="math display">\[
+    -mgh = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+  \]</span> This equation is the same as the above.</p></li>
+<li><p>Point Y is just the top point. Weightless means that there is no interaction between the rider and the seat (the "reaction force" is <span class="math inline">\(0\)</span>). The gravitational force is just enough to offer the centripetal force. The speed at Y is just <span class="math inline">\(20\)</span> that we used in the above question. So: <span class="math display">\[
+    mg = m\frac{v_2^2}{r_Y}
+  \]</span> Then we can solve the <span class="math inline">\(r_Y = v^2_2/g = 40.8\ \rm m\)</span>.</p></li>
+</ol>
+<ol start="6" type="1">
+<li><ol type="a">
+<li>"20 revolutions per minute". So <span class="math inline">\(\omega = 20 \times 2\pi/60 = 2\pi/3\ \rm rad/s\)</span>.</li>
+<li>Acceleration is just <span class="math inline">\(\omega^2 r = g\)</span>, thus we can solve for <span class="math inline">\(r\)</span>.</li>
+</ol></li>
+<li><ol type="a">
+<li><span class="math inline">\(T = 2\pi r/v = 1474\ \rm s\)</span>.</li>
+<li><span class="math inline">\(F = mv^2/r = 10.75\ \rm N\)</span></li>
+<li><ol type="i">
+<li>Simply draw arrows that pointing into the center.</li>
+</ol></li>
+</ol>
+<ol start="2" type="i">
+<li>Maximum: at the bottom: <span class="math inline">\(F_n - mg = F_c\)</span>. Minimum: at the top: <span class="math inline">\(mg - F_n = F_c\)</span>.</li>
+</ol></li>
+</ol>
+<h2><span id="chapter-8-gravitation">Chapter 8 Gravitation</span></h2>
+<p>Previously our understanding to gravitation is simply "weight is gravitation". This is not the case, however. Weight is not a fundamental force. In contrast, it's part of the gravitation given by the earth. To understand the gravitation comprehensively, we should jump beyond the earth and into the universe. This chapter leads you to take a look at the earth from a higher point of view.</p>
+<h3><span id="gravitational-forces">Gravitational forces</span></h3>
+<p>Gravitational forces is the interaction between objects due to the mass they own. In other words, any objects must have this interaction with each other as long as they have non-zero mass (we will encounter particles with zero mass in the future). The force has the form: <span class="math display">\[
+  F = \frac{GMm}{R^2} 
+\]</span> where <span class="math inline">\(G = 6.67 \times 10^{-11}\)</span> is the gravitational constant. <span class="math inline">\(M\)</span> and <span class="math inline">\(m\)</span> are the masses of the interacting bodies. <span class="math inline">\(R\)</span> is the radius between them. Forces with this form is called "inverse square law": the force is inversely proportional to the square of the distance. The Coulumb's law, which is the interacting forces between electric charges, is also a inverse square law. We will dig deeper about this kind of forces in the future.</p>
+<p>Usually, we use the symbol <span class="math inline">\(M\)</span> to represent the celestial body at the center. For example, a person who stands on the surface of the earth will receive a gravitational force <span class="math inline">\(F_G = GMm/R^2\)</span> where <span class="math inline">\(R\)</span> is the radius of the earth. And, comparing with the weight <span class="math inline">\(mg\)</span>, we can easily see that <span class="math inline">\(g = GM/R^2\)</span>. Similarly, we can calculate the force on the surface of other stars, or the force from earth when flying in the outerspace.</p>
+<h3><span id="gravitational-fields">Gravitational fields</span></h3>
+<p>This is the first time we encounter the concept of "field". The gravitational field is produced by the central celestial body, and interacts on the flying body. (<em>Of course, inversely, we can also consider the flying body creates a field and interacts on the celestial body. But in astronomy and cosmology, since the flying body is too light, we never count there field. So from now, we are getting used to calculate the field from the center celestial body</em>.)</p>
+<p>How to understand that? From the force law <span class="math inline">\(F = GMm/R^2\)</span>, we can easily see that the force is proportional to the flying body for a fixed center star. The coefficient for this fixed star is only dependent on the distance. For example, if we are talking about the force from the earth to the flying spaceship, then the force on the spaceship should obey <span class="math inline">\(F \propto m_{\rm ship}\)</span>. The proportional coefficient is just <span class="math inline">\(GM/R^2\)</span>. This coefficient, if we are keep talking about the earth (which means <span class="math inline">\(M\)</span> is not changed), is only dependent on <span class="math inline">\(R\)</span>.</p>
+<p>We define this coefficient "gravitational field" as: <span class="math display">\[
+g \equiv \frac{GM}{R^2}
+\]</span> Gravitational field is a <strong>vector</strong>. It always points into the center celestial body that creates this field. Note that if we switch to talk about another star, like moon, the <span class="math inline">\(M\)</span> changes, and at that time we are talking about a new different field produced by the moon, <span class="math inline">\(g_{\rm moon} = GM_{\rm moon}/R^2\)</span>.</p>
+<p>Why we use the same symbol <span class="math inline">\(g\)</span> for the field and the gravitational acceleration? Now you can see that they are the same thing! Both of them gives <span class="math inline">\(F_G = mg\)</span>. So we say that the symbol <span class="math inline">\(g\)</span> represent both the acceleration and the gravitation. It has two unit (of course these two units are equivalent): <span class="math inline">\(\mathrm{kg \cdot m \cdot s^{-2}} = \mathrm{N/kg}\)</span>. You can try to prove this.</p>
+<h4><span id="what-is-field-jump-this-subsection-if-you-want-but-encourage-to-read">What is field? (Jump this subsection if you want, but encourage to read)</span></h4>
+<p>A "field" is defined as something that depends on the location. For example, the altitude of the earth surface depends on where you are talking about (Of course! The Mount.Zhumulangma has the different altitude with the Mariana Trench!). We say that the altitude of the surface is a <strong>field function</strong> that depends on the location <span class="math inline">\(x\)</span>, where <span class="math inline">\(x\)</span> is a vector that can pinpoint the location on the earth. Note this function as <span class="math inline">\(A(x)\)</span>. (You may not be familiar with this symbol for now. But you will learn this symbol at the first math class in high school.)</p>
+<p>Another example is the familiar linear function <span class="math inline">\(y = kx + b\)</span>. We can regard <span class="math inline">\(x\)</span> as the location. Now we say that <strong><span class="math inline">\(y\)</span> is a function of the location <span class="math inline">\(x\)</span></strong>. We can also call <span class="math inline">\(y\)</span> a field.</p>
+<p>Now go back to the gravitational field. The field <span class="math inline">\(g = GM/R^2\)</span> is absolutely a function of location <span class="math inline">\(R\)</span>. So we call it a field.</p>
+<p>Why we do not call the force <span class="math inline">\(F = GMm/R^2\)</span> a field? The reason is it also depends on the flying body <span class="math inline">\(m\)</span>. We would like to have a look at something that is independent of the body.</p>
+<p>But you may further ask: the gravitational field <span class="math inline">\(g = GM/R^2\)</span> also depends on the <span class="math inline">\(M\)</span>! Why you do not apply the same reason for this <span class="math inline">\(M\)</span>? Well, this <span class="math inline">\(M\)</span> is from the one who creates the field. Without the <span class="math inline">\(M\)</span> we do not have this field. If we change <span class="math inline">\(M\)</span>, yes you can, but then we are talking another field from another celestial body. <strong>For the same celestial body who is creating a certain field</strong>, the <span class="math inline">\(M\)</span> is a constant.</p>
+<h3><span id="gravitational-potential">Gravitational potential</span></h3>
+<p>We talked about the gravitational potential energy in terms of weights <span class="math inline">\(mg\)</span> before. But this time we are looking at the potential energy in the outerspace.</p>
+<p>The definition of the potential energy should be the same: it's a kind of energy that is stored in the interactions. The interactions tends to release the energy and this energy will be transformed into kinetic energy. Previously, the way we define the gravitational potential energy is the same as the opposite of the works done by the gravity when we push something from the 0-energy point to the current location.</p>
+<p>For example, we choose a surface to have 0 potential energy. Lift a body with mass <span class="math inline">\(m\)</span> to the height <span class="math inline">\(h\)</span>. The work done by the gravity is negative: <span class="math inline">\(W_G = - mgh\)</span>. We say that the potential energy is <span class="math inline">\(mgh\)</span>. (Remember, the negative work from gravity means that the gravity turns other type of energy into gravitational potential energy. So we can understand this process as: during lifting, gravity does negative work and turns some energy into gravitational potential energy. The amount is <span class="math inline">\(mgh\)</span>. Then this point has the potential energy <span class="math inline">\(mgh\)</span>.) We summarize the process as:</p>
+<p><span class="math display">\[
+E_{pG\text{ at }h} = -W_{G, \text{0 to h}}
+\]</span></p>
+<p>Now apply it to the universe. First question: how to define the zero-energy point? The answer is: at infinity!</p>
+<p>Now we define infinity to be 0 potential energy. Push the item back and we can get the potential energy. The problem is: the force is varying during the whole process!</p>
+<p>This calculation needs calculus. You will learn about this after you pass AS exam. Now I just show you the result:</p>
+<p><span class="math display">\[
+E_{pG} = - \frac{GMm}{R}
+\]</span></p>
+<p>This is the gravitational potential energy.</p>
+<p>Now we have another task. For forces, we search for an quantity that is independent of <span class="math inline">\(m\)</span> and we call it field. For potential energy, shouldn't we do that?</p>
+<p>Yes, we should. The answer, of course, is again the coefficient of <span class="math inline">\(m\)</span>: <span class="math display">\[
+V \equiv \frac{E_{pG}}{m} = -\frac{GM}{R}
+\]</span> We call this quantity <strong>gravitational potential</strong>. It only depends on <span class="math inline">\(M\)</span> and <span class="math inline">\(R\)</span>.</p>
+<h3><span id="gravitational-force-guides-the-space-motion">Gravitational force guides the space motion</span></h3>
+<p>Now we are well-equipped to calculate the phenomena of spaceship rotations. The only thing we need to do is: the gravity offers the centripedal force. <span class="math display">\[
+F_G = F_c
+\]</span> For example, the geostatic satellite is rotating around the earth with the same period of earth spin: 24 hours per revolution. What is the height from the surface?</p>
+<p>The answer is simple: <span class="math display">\[
+\frac{GMm}{R^2} = m\omega^2 R = m \left(\frac{2\pi}{T} \right)^2 R
+\]</span> solve this equation we get: <span class="math display">\[
+R^3 = \frac{GM}{4\pi}T^2
+\]</span> Further, we should notice that here the <span class="math inline">\(R\)</span> is the distance from the center of earth to the satellite. The distance from the surface to the satellite is <span class="math inline">\(R - R_{e}\)</span>, where <span class="math inline">\(R_e\)</span> is the earth radius.</p>
+<p>From the above example, we can found that the result does not depend on the flying mass <span class="math inline">\(m\)</span>. Actually, this is the most case in this chapter. Remember, gravity offers the centripedal force, gravity offers the acceleration. For any question about flying body, write down this equation and you will solve that. No exceptions.</p>
+<h3><span id="solutions-to-book2-practice">Solutions to Book2 Practice</span></h3>
+<ol type="1">
+<li>C. Gravitational field and electrostatic field are vector fields (at each location in space, there is a vector associate with that). The magnitude of forces for both of them obey <span class="math inline">\(F \propto r^{-2}\)</span>, this is called the inverse square law.</li>
+<li>A. Simply plug in the reasonable numbers.</li>
+<li>C. "Move completely outside the influence of gravitational field" means to the infinity. That is, we should change the gravitational potential energy from <span class="math inline">\(-GMm/R\)</span> to <span class="math inline">\(0\)</span>. Of course, we can give it some kinetic energy in addition. This is, however, not the "minimal" required by the question. So the energy we need is simply <span class="math inline">\(GMm/R = 1.34 \times 10^{12} \rm{J}\)</span>.</li>
+<li>B. Just the formula <span class="math inline">\(V = -GM/R\)</span>.</li>
+<li>Write down the gravitational field for earth and moon: <span class="math display">\[
+ g_{earth} = \frac{GM_{earth}}{R_{earth}^2}\\
+ g_{moon} = \frac{GM_{moon}}{R^2_{moon}}
+\]</span> We have <span class="math inline">\(g_{earth} = 6g_{moon}\)</span>, so <span class="math display">\[
+ \frac{M_{earth}}{R_{earth}^2} = 6\frac{M_{moon}}{R^2_{moon}}
+\]</span> with <span class="math inline">\(M_{earth} = 81 M_{moon}\)</span>, we can get <span class="math display">\[
+  \frac{R_{earth}}{R_{moon}} = \sqrt{\frac{81}{6}} = 3.67
+\]</span></li>
+<li><ol type="a">
+<li><span class="math display">\[
+  g = \frac{GM}{r}
+  \]</span></li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li>plug in the formula to get <span class="math inline">\(g \simeq 9.8\)</span></li>
+</ol>
+<ol start="7" type="1">
+<li><ol type="a">
+<li>15 complete orbits per 24h, then the angular velocity is: <span class="math display">\[
+  \omega = \frac{15 \times 2\pi}{24*3600} = 0.0011
+  \]</span> Then the acceleration is <span class="math display">\[
+  a = \omega^2 r=7570.37 m/s^2
+  \]</span></li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li>Gravitational force gives acceleration. So <span class="math display">\[
+  \frac{GM}{R^2} = a
+  \]</span> so <span class="math display">\[
+  M = \frac{aR^2}{G} \simeq 6 \times 10^{24} kg
+  \]</span></li>
+</ol>
+<ol start="8" type="1">
+<li><ol type="a">
+<li>The gravity is offering the centripedal force, i.e. the gravity is balancing the centrifugal force. If this is small, then not enough to offer centripedal force.</li>
+<li>Still use the familiar formula <span class="math display">\[
+ \frac{GM}{R^2} = \frac{v^2}{R}
+  \]</span> so <span class="math display">\[
+  v=\sqrt{\frac{GM}{R}}
+  \]</span> So when radius <span class="math inline">\(R\)</span> increase, the speed decrease. Similarly, <span class="math display">\[
+  \frac{GM}{R^2} = \omega^2 R = \frac{4\pi^2}{T^2}R
+  \]</span> so <span class="math display">\[
+  T = \sqrt{\frac{4\pi^2R^3}{GM}}
+  \]</span> so when radius becomes larger, the period becomes larger.</li>
+</ol></li>
+</ol>
+<ol start="3" type="a">
+<li>Simply plug in the number, result is <span class="math inline">\(T = 5569.35s = 1.55h\)</span></li>
+<li>Gravitational potential energy goes down. It goes partly into the kinetic energy, and partly into the costed energy by the resistance.</li>
+</ol>
+<ol start="9" type="1">
+<li><ol type="a">
+<li>Gravitational field is created by the mass of the body at the center. It gives force on any massive body that is put into this field. <span class="math display">\[
+  g = \frac{GM}{R^2}
+  \]</span></li>
+</ol></li>
+</ol>
+<ol start="2" type="a">
+<li><center>
+<img src="/2021/01/23/AS-Physics/Gravity.png" width="70%">
+</center></li>
+<li>Due to the sun: <span class="math display">\[
+  V_{sun}=-\frac{GM_{sun}}{R_{orbit}}
+  \]</span> Due to the earth: <span class="math display">\[
+  V_{earth}=-\frac{GM_{earth}}{R_{earth}}
+  \]</span></li>
+</ol>
+<ol start="10" type="1">
+<li>They are both inverse squared force field, they both have potential energy and potential, they both has the direction along the line between the two objects. But mass is always positive, while electric charge can be negative. So gravitational force is always attracting, but electric force can be repulsive. ## Review Project 1: Crazy Alex Yu</li>
+</ol>
+<center>
+<img src="/2021/01/23/AS-Physics/figure.png" width="70%">
+</center>
+<p>Alex Yu wants to go to the tower across the river. There is no bridge, no boat, no plane, no any transportation. But she is crazily enthusiastic. She must arrive the tower.</p>
+<p>Her teacher, Isaac Wang, is helping her design a crazy facility so that this crazy guy and arrive the other side of the river.</p>
+<h3><span id="part-1-ejection-from-the-spring">Part 1: Ejection from the spring</span></h3>
+<p>She sits in a small chair with wheels, holding on the spring by a rod which is attached to an rolling axis. A known force <span class="math inline">\(F\)</span> is pushing the top of the rod so that Alex is holding at the position. The spring is compressed. The platform is smooth. Then release the force <span class="math inline">\(F\)</span>, she is ejected, and flies out the platform at point A.</p>
+<p>Known quantities: force <span class="math inline">\(F\)</span>, rod length <span class="math inline">\(l\)</span> and <span class="math inline">\(3l\)</span>, spring constant <span class="math inline">\(k\)</span>, and mass of you and your car <span class="math inline">\(m\)</span>.</p>
+<ul>
+<li>Initially, Alex is hold at that position. What is the force from the spring that makes her in equilibrium?</li>
+<li>How much length is the spring compressed?</li>
+<li>Once she is well prepared, the force <span class="math inline">\(F\)</span> is released, and Alex is ejected out. What is the speed of her after she leaves the spring?</li>
+</ul>
+<p><strong>Solutions</strong> : - For Alex, two forces are exerting on her: the spring force and the rod force. For the rod, two forces combined to keep it in rotation equilibrium: the force from Alex, and the external force <span class="math inline">\(F\)</span>. Thus we can write down the equation for the equilibium of the rod rotation: <span class="math display">\[
+  F_{spring} l=F \cdot 3l
+\]</span> Thus we have <span class="math display">\[
+F_{spring} = 3F
+\]</span></p>
+<ul>
+<li><p>The spring force is given by the Hooke's law: <span class="math inline">\(F_{spring} = k \Delta x\)</span>, so we have <span class="math display">\[
+\Delta x = \frac{3F}{k}
+\]</span></p></li>
+<li><p>Here, the elastic potential energy stored in the spring is transformed into the kinetic energy of Alex. The initial elastic potential energy is: <span class="math display">\[
+E_p = \frac{1}{2}k \Delta x^2
+\]</span> The final kinetic energy is: <span class="math display">\[
+E_k = \frac{1}{2} m v^2
+\]</span> We have <span class="math inline">\(E_p = E_k\)</span>, so the velocity is: <span class="math display">\[
+v_A=\frac{3F}{\sqrt{mk}}
+\]</span></p></li>
+</ul>
+<h3><span id="part-2-flying-in-the-sky">Part 2: Flying in the sky</span></h3>
+<p>After ejected from the platform, she flies in the sky and exactly enters the track at point B. (by "exactly", it means that the velocity direction is exactly parallel to the direction of the track at point B)</p>
+<p>Known quantities: the angle <span class="math inline">\(\theta\)</span>, and all the quantities solved above.</p>
+<ul>
+<li>What is the initial velocity when she flies out from the platform?</li>
+<li>What is the horizontal and vertical velocity at point B?</li>
+<li>How much time does she fly from A to B?</li>
+<li>What is the horizontal and vertical distance from A to B?</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li><p>Of course the initial velocity is just the velocity <span class="math inline">\(v_A\)</span>.</p></li>
+<li><p>From A to B, Alex has two motions: in horizontal direction, the motion is at a constant velocity. While at vertical direction, it's at a constant acceleration <span class="math inline">\(g\)</span> with zero initial velocity. So the horizontal velocity at B is still equals to that at A: <span class="math display">\[v_{Bx}=v_A\]</span></p>
+<p>We do not know the time so far, so we cannot directly calculate the vertical velocity at B. However, we know that the direction of the total velocity at B is along <span class="math inline">\(\theta\)</span>, so</p>
+<p><span class="math display">\[v_{By} = v_{Bx} \tan \theta = v_A \tan \theta\]</span></p></li>
+<li><p>Now we can solve the time: from <span class="math display">\[v_{By} = g t\]</span> we get <span class="math display">\[t_{AB} = v_{By}/g = \frac{v_A \tan \theta}{g}\]</span></p></li>
+<li><p>With time calculated, we can immediately get the displacement: <span class="math display">\[
+x_{AB} = v_A t_{AB} = \frac{v_A^2 \tan \theta}{g} \\
+y_{AB} = \frac{1}{2} g t_{AB}^2 = \frac{v_A^2 \tan^2\theta}{2g}
+\]</span></p></li>
+</ul>
+<h3><span id="part-3-running-in-the-track">Part 3: Running in the track</span></h3>
+<p>After she enters the track at point B, she runs along the track and finally arrives C. No energy lost at point B during she enters the track. But remember, this car has no engine.</p>
+<p>The track is smooth, but not straight. No energy lost while moving in the track.</p>
+<p>Known quantities: height between B and C <span class="math inline">\(h_{BC}\)</span>, and the quantities calculated above.</p>
+<ul>
+<li>What is the kinetic energy at point B?</li>
+<li>What is the change of gravitational potential energy from B to C?</li>
+<li>What is the speed at point C?</li>
+</ul>
+<p><strong>Solutions</strong>: - Kinetic energy is simply: <span class="math display">\[
+  E_k = \frac{1}{2}m v_B^2
+  \]</span> - The gravitational potential gets higher. Since we know that <span class="math display">\[
+  h_{BC} = h_C - h_B
+  \]</span> we know that <span class="math display">\[
+  \Delta E_{p}=E_{pC} - E_{pB} = mgh_C - mgh_B = mgh_{BC}
+  \]</span> This is a positive value. - During this process, energy is conserved: kinetic energy is transferred into gravitational potential energy. We can write down: <span class="math display">\[
+  \Delta E_k = \frac{1}{2}m(v_C^2 - v_B^2) = -\Delta E_p = -mgh_{BC}
+  \]</span> Solve this equation and we can get <span class="math display">\[
+  v_C = \sqrt{v_B^2 - 2gh_{BC}}
+  \]</span></p>
+<h3><span id="part-4-running-along-the-slope">Part 4: Running along the slope</span></h3>
+<p>After finishing the track, she arrives point C. Now the tower is exactly at D. Only a straight way remaining! No energy lost at point C. That means, the speed at C when her leave the track BC is the speed that she starts moving along CD.</p>
+<p>But this way is not smooth. The friction is <span class="math inline">\(f\)</span>. She exactly stops at D finally.</p>
+<p>Known quantities: slope of CD <span class="math inline">\(\alpha\)</span>, and all the quantities calculated above.</p>
+<ul>
+<li>How many forces are exerting on her?</li>
+<li>What is her acceleration?</li>
+<li>She finally stops at D. How long is CD? How much time does it take?</li>
+</ul>
+<p><strong>Solutions</strong>: - Gravity, supporting force from the slope, and friction. - Decompose the forces along the slope. Friction is down along the slope. One componenet of gravity also points down along the slope. So the acceleration is given by: <span class="math display">\[
+  f+mg\sin \alpha = ma
+  \]</span> so <span class="math display">\[
+  a = g\sin \theta + \frac{f}{m}
+  \]</span></p>
+<ul>
+<li>Write down the equation: <span class="math display">\[
+0 - v_C^2 = -2 a l_{CD}
+\]</span> so <span class="math display">\[
+l_{CD} = \frac{v_C^2}{2(g \sin \theta + f/m)}
+\]</span></li>
+</ul>
+<p><strong>Congratulations to Alex Yu. She finally arrives the tower! (Although she is crazy...) Let's move on to the next journey!</strong></p>
+<h1><span id="part-2-thermal-physics">Part 2: Thermal Physics</span></h1>
+<h1><span id="part-3-electricity-and-magnetics">Part 3: Electricity and Magnetics</span></h1>
+<h1><span id="part-4-modern-physics">Part 4: Modern Physics</span></h1>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">Part 1: Mechanics</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.1.</span> <span class="nav-text">Chapter 1 Kinematics</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.2.</span> <span class="nav-text">Chapter 2 Dynamics: Newton&#39;s Law</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.3.</span> <span class="nav-text">Chapter 3 Forces</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.4.</span> <span class="nav-text">Chapter 4 Energy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.5.</span> <span class="nav-text">Chapter 5 Momentum</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.6.</span> <span class="nav-text">Chapter 6 Elasticity</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.7.</span> <span class="nav-text">Chapter 7 Circular motion</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.7.1.</span> <span class="nav-text">How the motion can take turns</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.7.2.</span> <span class="nav-text">Circular motion at constant speed</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.7.3.</span> <span class="nav-text">Centripetal force</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.7.4.</span> <span class="nav-text">Solutions to Book2 Practice</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.8.</span> <span class="nav-text">Chapter 8 Gravitation</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.1.</span> <span class="nav-text">Gravitational forces</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.2.</span> <span class="nav-text">Gravitational fields</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.8.2.1.</span> <span class="nav-text">What is field? (Jump this subsection if you want, but encourage to read)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.3.</span> <span class="nav-text">Gravitational potential</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.4.</span> <span class="nav-text">Gravitational force guides the space motion</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.5.</span> <span class="nav-text">Solutions to Book2 Practice</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.6.</span> <span class="nav-text">Part 1: Ejection from the spring</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.7.</span> <span class="nav-text">Part 2: Flying in the sky</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.8.</span> <span class="nav-text">Part 3: Running in the track</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.8.9.</span> <span class="nav-text">Part 4: Running along the slope</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">Part 2: Thermal Physics</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">3.</span> <span class="nav-text">Part 3: Electricity and Magnetics</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">4.</span> <span class="nav-text">Part 4: Modern Physics</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Ruoquan Wang</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ruoquan Wang</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
