@@ -5,6 +5,7 @@ date: 2021-01-23 18:05:40
 tags:
 description: A short summary for AS physics lecture and exercises. Basic formula and definitions, concepts, and solutions are included. Specifically, review projects are offered at the end of each chapter.
 mathjax: true
+hidden: true
 ---
 # Part 1: Mechanics
 ## Chapter 1  Kinematics
@@ -12,9 +13,6 @@ mathjax: true
 ## Chapter 2  Dynamics: Newton's Law
 
 ## Chapter 3  Forces
-
-## Chapter 4  Energy
-
 ## Chapter 5  Momentum
 
 ## Chapter 6  Elasticity
@@ -25,7 +23,7 @@ Circular motion is the simplest form of a motion along a *curved trajectory*.
 
 ### How the motion can take turns
 
-The acceleration changes the velocity, not only the magnitude, but also the *direction*. The simplest way to change the direction is applying the acceleration so that it only changes the direction, but no magnitude. This is achieved by making the acceleration *perpendicular to the velocity*.
+The acceleration changes the velocity, not only the magnitude but also the *direction*. The simplest way to change the direction is by applying the acceleration so that it only changes the direction, but no magnitude. This is achieved by making the acceleration *perpendicular to the velocity*.
 
 Remember: instantaneous acceleration can be decomposed as two components -- parallel or penpendicular to the velocity. The parallel component changes the magnitude of the velocity, the perpendicular one changes the direction. **This only applies on instantaneous acceleration!** 
 
@@ -44,7 +42,7 @@ Quantities that describe this kind of motion includes:
 - Angular speed $\omega$, describing how large the angle it can rotate in unit time. We have $\omega r = v$.
 - Period $T$, describing the time for a whole circle. We have $T = 2\pi / \omega$
 - Frequency $f$, describing how many circles can be finished in unit time. $f=1/T$.
-  
+
 
 For this kind of motion, the acceleration is
 $$
